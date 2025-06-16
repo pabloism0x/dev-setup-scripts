@@ -1,0 +1,56 @@
+# 설치 로그 파일
+*.log
+install.log
+setup.log
+
+# 임시 파일
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# 백업 파일
+*.bak
+*.backup
+*~
+
+# 시스템 파일
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE 및 에디터 파일
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 테스트 환경
+test/
+testing/
+.test/
+
+# 사용자 설정 파일 (예시)
+config.local
+settings.local
+
+# 런타임 파일
+*.pid
+*.seed
+*.pid.lock
+
+# 압축 파일
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+
+# 로컬 개발용 파일
+.env.local
+.env.dev
+local-*
